@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+ }
+ .container{
+    text-align: center;
+    box-sizing: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: azure;
+ }
+
+ .body1 {
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .col {
+    width: 33%;
+    height:200px;
+ }
+
+ .footer {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: azure;
+ }
+
+ @media screen and (max-width:599px) {
+    .body1{
+       flex-direction: column;
+
+    }
+    .col {
+    width:100%;
+    
+    }
+
+ }

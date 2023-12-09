@@ -1,0 +1,152 @@
+body{
+    background-color: #c4f1e5;
+}
+section {
+    border-radius: 60px;
+    max-width: 1400px;
+    margin: 20px auto;
+    background-image: url("https://i.pinimg.com/564x/63/95/91/639591fe09835f63e26b12e380457b51.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #000000;
+}
+h1{
+   font-size: 100px;
+}
+.conten{
+    font-size: 20px;
+}
+.container{
+    border-radius: 50px;
+    max-width: 200px;
+    margin: 20px auto;
+    background-color: #056c2e;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+.container a{
+   color:#fff; 
+    opacity: 1;
+    text-decoration: none;
+    font-size: 30px;
+}
+.container a:hover{
+   color:#9ee5ba
+}
+/* phần giữa */
+.contai{
+    padding: 80px;
+}
+.contay{
+   padding:80px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size:30px:
+}
+.contai a{
+   color: rgb(0, 0, 0); 
+    opacity: 1;
+    text-decoration: none;
+    font-size: 15px;
+}
+.contay a{
+   color: rgb(0, 0, 0); 
+    opacity: 1;
+    text-decoration: none;
+    font-size: 15px;
+}
+.contai a:hover {
+   color: rgb(207, 19, 228);
+}
+.contay a:hover{
+   color:rgb(180, 180, 252);
+}
+.body1 {
+    display: flex;
+    justify-content: space-between;
+ }
+ .col1 {
+    border-radius: 27px;
+    width: 420px;
+    height:200px;
+    overflow: hidden;
+ }
+ .cok{
+   padding: 18px
+ }
+ .col1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+  }
+  .col2 h3{
+   font-size:25px;
+  }
+ .col2{
+    border-radius: 27px;
+    width: 420px;
+    height:350px;
+    background-color:rgb(213, 249, 249);
+    text-align: left;
+    font-size: 15px;
+ }
+ .col3 h3{
+   font-size:20px;
+ }
+ .col3 {
+    border-radius: 27px;
+    width: 49%;
+    height:110px;
+    overflow: hidden;
+    background-color:rgb(213, 249, 249);
+ }
+ /* phần cuối */
+ .col4{
+    width: 44%;
+    height:200px;
+    overflow: hidden;
+    
+ }
+ .col5{
+    width: 10%;
+    height:200px;
+    overflow: hidden;
+    text-align: center;
+ }
+ .col5 a{
+   color:blue
+ }
+ .col6{
+    width: 10%;
+    height:200px;
+    overflow: hidden;
+    text-align: center;
+ }
+ .col6 a{
+   color:blue;
+ }
+ .col7{
+    width: 20%;
+    height:200px;
+    overflow: hidden;
+    text-align: center;
+ }
+ .body2{
+    display: flex;
+    flex-direction: row;
+ }
+ .col8{
+    width: 20%;
+    height:50px;
+    overflow: hidden;
+    text-align: center;
+ }

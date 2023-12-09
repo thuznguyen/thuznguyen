@@ -1,0 +1,178 @@
+.container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    overflow: hidden;
+    font-family:  "Source Sans Pro Topnav", sans-serif;
+    background-color: rgb(12, 169, 156);
+    border: 1px solid white;
+    /* padding: 10px; */
+    }
+.container a {
+    float: left;
+    color:white;
+    padding: 16px 16px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+    text-decoration: none;
+    height: 40px;
+}
+.container a:hover {
+    color:#ffffff;
+    background-color:rgb(6, 104, 96);
+}
+.cont a{
+    font-size:15px;
+}
+.main a{
+    color: rgb(0, 0, 0); 
+    opacity: 1;
+    text-decoration: none;
+    font-size: 15px;
+ }
+main{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+  /* ghép hai bố cục không đều nhau : hai khung lớn trái phải*/
+  .contain {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contain a{
+    color: rgb(0, 0, 0); 
+     opacity: 1;
+     text-decoration: none;
+ }
+ .contain a:hover{
+    color:rgb(12, 232, 221)
+ }
+  
+  .left-box {
+    float: left;
+    flex-basis: 300px;
+    padding: 10px;
+    width: 30%;
+  }
+  
+  .right-box {
+    float: right;
+    margin-left: 300px;
+    padding: 10px;
+    width: 30%;
+  }
+ /* KHUNG LỚN BÊN TRÁI */
+ .col1 {
+    border-radius: 10px;
+    width: 590px;
+    height:500px;
+    overflow: hidden;
+    /* background-color: #669077; */
+    float: left;
+    font-size:20px;
+ }
+ /* khung ảnh */
+ .col2 {
+    border-radius: 10px;
+    width: 590px;
+    height:400px;
+    overflow: hidden;
+    /* background-color:#bdf4d3; */
+ }
+ /* cách dòng */
+ .cok{
+    padding: 18px;
+  }
+.col2 img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+}
+/* khung lớn của 3 ảnh  */
+.col9{
+    border-radius: 10px;
+    width: 600px;
+    height:350px;
+    overflow: hidden;
+    /* background-color: #669077; */
+    float: left;
+}
+.col7{
+    border-radius: 10px;
+    width: 200px;
+    height:300px;
+    overflow: hidden;
+    /* background-color:#bdf4d3; */
+    float: right;
+    font-size:15px;
+    /* padding: 10px; */
+}
+.col7 p{
+    font-size:17px;
+}
+/* ảnh */
+.col8{
+    border-radius: 10px;
+    width: 190px;
+    height:140px;
+    overflow: hidden;
+    /* background-color:#0c9543; */
+}
+.col8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+  }
+.body1 {
+    display: flex;
+    justify-content: space-between;
+ }
+
+/* KHUNG LỚN BÊN PHẢI */
+.col3{
+    width: 320px;
+    height:700px;
+    overflow: hidden;
+    /* background-color: #2ce074; */
+    float: right;
+    font-size:15px;
+}
+/* khung chia bố cục */
+.col4{
+    border-radius: 10px;
+    width: 320px;
+    height:120px;
+    overflow: hidden;
+    /* background-color:#bdf4d3; */
+}
+/* khung ảnh */
+.col5{
+    border-radius: 10px;
+    width: 65px;
+    height:65px;
+    overflow: hidden;
+    /* background-color:#7eeaa9; */
+}
+.col5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+  }
+/* khung chữ */
+.col6{
+    width: 240px;
+    height:116px;
+    overflow: hidden;
+    /* background-color:#00943b; */
+}
+.col6 p{
+    font-size:18px;
+}
+/* khung ghép ảnh vs chữ */
+.bod {
+    display: flex;
+    justify-content: space-between;
+ }
