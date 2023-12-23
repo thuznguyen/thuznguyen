@@ -1,0 +1,400 @@
+body {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Water Brush', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', cursive;
+  }
+  .body1 {
+    max-width: 900px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("1.jpg");
+    color:white;
+    text-align: left;
+    font-family: 'Water Brush', cursive;
+ }
+ .body1 img{
+    display: flex;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+ }
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+  }
+  
+  .search-button {
+    background-color: #f1f1f1;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    right: 200px;
+    cursor: pointer;
+    font-family: "Times New Roman", serif;
+  }
+  .menu h2{
+    font-size: 80px;
+    font-family: 'Water Brush', cursive;
+  }
+  /* .h3{
+    font-size: 50px;
+    font-family: 'Water Brush', cursive;
+  }
+  .h4{
+    font-size: 40px;
+    font-family: 'Water Brush', cursive;
+  } */
+  
+  .menu li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+  }
+  .item {
+    position: relative;
+    overflow: hidden;
+}
+/* khung chia bố cục */
+.col4{
+    border-radius: 10px;
+    width: 900px;
+    height:500px;
+    overflow: hidden;
+    /* background-color:#bdf4d3; */
+}
+/* khung ảnh */
+.col5{
+    border-radius: 10px;
+    width: 450px;
+    height:400px;
+    overflow: hidden;
+    /* background-color:#7eeaa9; */
+}
+.col5 img {
+    width: 150%;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+  }
+/* khung chữ */
+.col6{
+    width:400px;
+    height:400px;
+    overflow: hidden;
+    /* background-color:#00943b; */
+}
+.col6 p{
+    font-size:18px;
+}
+/* khung ghép ảnh vs chữ */
+.bod {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+ }
+
+ /* khung trắng  */
+ .body21{
+    max-width: 900px;
+    height: 300px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color:rgb(176, 151, 151); */
+    color:rgb(0, 0, 0);
+    text-align: center;
+ }
+ .body21 .item {
+    text-align: center;
+ }
+ .body21 h2{
+    font-size: 60px;
+    font-family: 'Water Brush', cursive;
+  }
+  .body22{
+    max-width: 900px;
+    height: 350px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color:rgb(241, 169, 169); */
+    color:rgb(0, 0, 0);
+    text-align: center;
+ }
+ .body22 .item {
+    text-align: center;
+ }
+ .body22 h2{
+    font-size: 60px;
+    font-family: 'Water Brush', cursive;
+  }
+ .body22 img{
+    display: flex;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+ }
+ .body22 a{
+    text-align: center;
+    min-width: 160px;
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  .body22 a:hover{
+    color:rgb(71, 225, 225);
+  }
+  
+  .body22 li {
+    display: block;
+    border-right: 1px solid #bbb;
+  }
+  .menu li:hover .body22 {
+    display: block;
+  }
+
+ /* khung lớn của 3 ảnh  */
+.col9{
+    border-radius: 10px;
+    width: 600px;
+    height:350px;
+    overflow: hidden;
+    /* background-color: #669077; */
+    float: left;
+}
+.col7{
+    border-radius: 10px;
+    width: 200px;
+    height:300px;
+    overflow: hidden;
+    /* background-color:#bdf4d3; */
+    float: right;
+    font-size:15px;
+    /* padding: 10px; */
+}
+.col7 p{
+    font-size:17px;
+}
+/* ảnh */
+.col8{
+    border-radius: 10px;
+    width: 190px;
+    height:140px;
+    overflow: hidden;
+    /* background-color:#0c9543; */
+}
+.col8 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh để đạt kích thước như đã định */
+  }
+  .body23{
+    max-width: 900px;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color:rgb(241, 169, 169); */
+    text-align: center;
+ }
+ .body23 a{
+    text-align: center;
+    min-width: 160px;
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  .body23 a:hover{
+    color:rgb(220, 71, 225);
+  }
+  
+  .body23 li {
+    display: block;
+    border-right: 1px solid #bbb;
+  }
+  .body23 a:hover {background-color: #f1f1f1}
+  .menu li:hover .body23 {
+    display: block;
+  }
+
+  /* trang đen */
+  .body3 {
+    max-width: 900px;
+    height: 400px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color:black;
+    text-align: center;
+    /* font-family: 'Water Brush', cursive; */
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    font-family: "Times New Roman", serif;
+ }
+ .body31{
+    max-width: 900px;
+    height: 50px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* background-color:rgb(241, 169, 169); */
+    /* text-align: center; */
+ }
+ .body31 h2{
+    font-size: 50px;
+    font-family: 'Water Brush', cursive;
+ }
+ .body31 p{
+    font-family: "Times New Roman", serif;
+ }
+ .body3 .body31 h4{
+    font-family: "Times New Roman", serif;
+    background-color: darkorchid;
+ }
+ .body32{
+    max-width: 900px;
+    height: 100px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* background-color:rgb(241, 169, 169); */
+    text-align: center;
+    font-family: "Times New Roman", serif;
+ }
+ .body233 {
+    max-width: 900px;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color:rgb(241, 169, 169);
+    text-align: center;
+ }
+ .body233 a{
+    text-align: center;
+    min-width: 160px;
+    color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  .body233 a:hover{
+    color:rgb(220, 71, 225);
+  }
+  
+  .body233 li {
+    display: block;
+    border-right: 1px solid #bbb;
+  }
+  .menu li:hover .body23 {
+    display: block;
+  }
+
+
+ /* trang trắng */
+ .body5 {
+    max-width: 900px;
+    height: 400px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color:white;
+    text-align: center;
+    font-family: 'Water Brush', cursive;
+    color:rgb(0, 0, 0);
+ }
+
+ /* trang đen */
+ .body3 {
+    max-width: 900px;
+    height: 400px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color:black;
+    text-align: center;
+    font-family: 'Water Brush', cursive;
+    color:white;
+ }
+
+ /* trang cuối */
+ .body4 {
+    max-width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color:black; */
+    text-align: left;
+    font-family: "Times New Roman", serif;
+ }
+ /* phần cuối */
+ .col41{
+    width: 44%;
+    height:200px;
+    overflow: hidden;
+    
+ }
+ .col51{
+    width: 10%;
+    height:200px;
+    overflow: hidden;
+    text-align: center;
+ }
+ .col51 a{
+    color:rgb(220, 71, 225);
+ }
+ .col61{
+    width: 10%;
+    height:200px;
+    overflow: hidden;
+    text-align: center;
+ }
+ .col61 a{
+    color:rgb(220, 71, 225);
+ }
+ .col71{
+    width: 20%;
+    height:200px;
+    overflow: hidden;
+    text-align: center;
+ }
+ .body12{
+    display: flex;
+    flex-direction: row;
+ }
+ .col81{
+    width: 20%;
+    height:50px;
+    overflow: hidden;
+    text-align: center;
+ }
+ .contay{
+    padding:80px;
+ }
+ .contay a{
+    color: rgb(0, 0, 0); 
+     opacity: 1;
+     text-decoration: none;
+     font-size: 15px;
+ }
+ .contay a:hover{
+    color:rgb(220, 71, 225);
+ }
+ .body11 {
+    display: flex;
+    justify-content: space-between;
+ }
