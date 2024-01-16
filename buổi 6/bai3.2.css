@@ -1,0 +1,24 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+section {
+    border: 5px solid rgb(174, 214, 222);
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-left: 200px;
+    background-color: rgb(204, 239, 245);
+}
+.red-text {
+    color: rgb(255, 94, 0);
+}
+h1{
+    color:rgb(49, 213, 112);
+}
+.col{
+    max-width: 100px;
+    background-color: aqua;
+}

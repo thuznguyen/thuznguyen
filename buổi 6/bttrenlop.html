@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function hienthianh(dovat) {
+            var container = document.getElementById("image-container");
+            container.innerHTML = "";
+
+            var image = document.createElement("img");
+            image.src = (dovat == "hoa")
+                ? "https://i.pinimg.com/564x/01/02/c1/0102c1b064eaf864df58bfe3cc637255.jpg"
+                : "https://i.pinimg.com/564x/5a/cd/85/5acd857e6d3ef3f513d2ca3c9b851d99.jpg";
+
+            var backButton = document.createElement("button");
+            backButton.textContent = "Quay về";
+            backButton.onclick = function() {
+                container.innerHTML = "";
+            };
+
+            container.appendChild(image);
+            container.appendChild(document.createElement("br"));
+            container.appendChild(backButton);
+        }
+    </script>
+</head>
+<body>
+    <p> Hãy chọn đồ vật:</p>
+    <input type="button" value="hoa" onclick="hienthianh('hoa');"/>
+    <input type="button" value="cây" onclick="hienthianh('cây');"/>
+
+    <div id="image-container"></div>
+</body>
+</html>

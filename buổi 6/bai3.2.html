@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bài 6</title>
+    <link rel="stylesheet" href="bai3.2.css">
+</head>
+<body>
+    <section>
+        <h1>Các phép toán</h1>
+        <p>Phép Cộng</p>
+        <input type="text" id="txt_so1_cong" size="15" required>
+        +
+        <input type="text" id="txt_so2_cong" size="15" required>
+        <button onclick="tinhtong()">=</button>
+        <input type="text" id="txt_ketquatong" size="15" required>
+        
+        <p>Phép Trừ</p>
+        <input type="text" id="txt_so1_tru" size="15" required>
+        -
+        <input type="text" id="txt_so2_tru" size="15" required>
+        <button onclick="tinhhieu()">=</button>
+        <input type="text" id="txt_ketquahieu" size="15" required>
+        
+        <p>Phép Nhân</p>
+        <input type="text" id="txt_so1_nhan" size="15" required>
+        *
+        <input type="text" id="txt_so2_nhan" size="15" required>
+        <button onclick="tinhtich()">=</button>
+        <input type="text" id="txt_ketquanhan" size="15" required>
+        
+        <p>Phép Chia</p>
+        <input type="text" id="txt_so1_chia" size="15" required>
+        /
+        <input type="text" id="txt_so2_chia" size="15" required>
+        <button onclick="tinhthuong()">=</button>
+        <input type="text" id="txt_ketquachia" size="15" required>
+        <h1>Các phép toán vừa tính</h1>
+        <table style="width: 70%;">
+            <tr>
+                <td>PHÉP CỘNG</td>
+                <td>PHÉP TRỪ</td>
+                <td>PHÉP NHÂN</td>
+                <td>PHÉP CHIA</td>
+            </tr>
+            <tr>
+                <td id="txt_phepcong"></td>
+                <td id="txt_pheptru"></td>
+                <td id="txt_phepnhan"></td>
+                <td id="txt_phepchia"></td>
+            </tr>
+        </table>
+        <script type="text/javascript" src="bai3.2.js"></script>
+    </section>
+</body>
+</html>
