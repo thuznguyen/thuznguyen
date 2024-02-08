@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bkt.css">
+    <link rel="stylesheet" href="bktt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- thanh điều hướng menu đa cấp -->
+    <header class="navbar">
+            <a href="" id="logo" ><img src="../baithi/anh/1.3.png" alt="Image"width="40px" height="40px" >Thuznguyen</a>
+            <div id="menu">
+                <div class="item">
+                    <a href="#home">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <div class="dropdown">
+                        <p onclick="click_products(event)">Giới thiệu <i class="fas fa-caret-down"></i></p>
+                        <div id="myDropdown" class="no-show" >
+                            <a href="#gioithieutongquan">Giới thiệu tổng quan</a> <br>
+                            <a href="#sothich">Sở thích</a> <br>
+                            <a href="#hoatdongyeuthich">Hoạt động yêu thích</a> <br>
+                            <a href="#loichungthuc">Lời chứng thực</a> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#cvdalam">Công việc</a>
+                </div>
+                <div class="item">
+                    <a href="#lienhe">Liên hệ</a>
+                </div>
+            </div>
+            <div class="item" id="icon">
+                <a href="https://thuznguyen.000webhostapp.com/baithi/baithi.html"><i class="fas fa-home"></i></a>
+            </div>
+            <div class="item">
+                <a href=""></a>
+            </div>
+            <div class="item">
+                <a href=""></a>
+            </div>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#home">Trang chủ</a>
+                <a href="#gioithieutongquan">Giới thiệu</a>
+                <a href="#cvdalam">Các công việc đã làm</a>
+                <a href="#lienhe">Liên hệ</a>
+            </div>
+              
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button> 
+            </div>
+      </header>
+      <div style="margin-top:40px;padding:15px 15px 20px;font-size:30px"></div>
+      <hr>
+      <div style="margin-top:px;padding:15px 15px;"></div>
+
+      <!--THÂN BÀI -->
+    <main>
+        <div class="header">
+            <a href="" class="chu" id="home">
+                <span><h1>CHÀO NGÀI ĐẾN THẾ GIỚI CỦA TÔI!</h1></span>
+            </a>
+        </div>
+        <div id="homem">
+            <section>
+                <div class="lop">
+                    <div class="lop5">
+                        <div class="lo">
+                            <img src="../baithi/anh/1.5.png" alt="1" class="lop1">
+                            <div class="lop2"></div>
+                            <div class="lop3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lop6">
+                        <h1><span class="typewrite" data-period="200" data-type="[ &quot;HELLO SIR!!&quot; ]"></span></h1>
+                        <p>Chúc quý ngài một ngày vui vẻ...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    <!-- NHẠC -->
+    <audio controls>
+        <source src="../baithi/bai3.mp4" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <div style="margin-top:20px;padding:5px 5px;font-size:10px"></div>
+      
+    <!-- GIỚI THIỆU BẢN THÂN -->
+    <div id="gioithieutongquan">
+        <h2>GIỚI THIỆU BẢN THÂN</h2><br>
+        <p><b>Xin chào! Tôi là Nguyễn Thị Thư </b><br>
+            <b>Dưới đây</b> là một số mô tả và cung cấp trình độ, kỹ năng về mình.</p><br>
+            <section>
+                <div class="lop">
+                    <div class="lop60">
+                        <p>Tôi là Nguyễn Thị Thư, một sinh viên tại trường Đại học Thủ Đô Hà Nội, với sự đam mê và hứng thú với lĩnh vực thiết kế web. Sau khi hoàn thành học phần thiết kế web, tôi đã tích lũy được kiến thức và kỹ năng cần thiết để thực hiện các dự án trong lĩnh vực này. Tôi đã áp dụng những kiến thức này để xây dựng các trang web từ cơ bản đến nâng cao, từ việc tạo ra các trang cá nhân đến các trang thương mại điện tử. Bên cạnh đó, tôi không ngừng nâng cao trình độ bằng việc tham gia các khóa học và đào tạo liên quan đến lĩnh vực thiết kế web.</p>
+                        <p>Với sự chuyên nghiệp, kiến thức và kỹ năng tích lũy, tôi cam kết sẽ đóng góp tích cực và mang lại giải pháp tốt cho mọi dự án của công ty.</p>
+                    </div>
+                    <div class="lop50">
+                        <div class="lo">
+                            <img src="../baithi/anh/2.png" alt="1" class="lop1">
+                            <div class="lop2"></div>
+                            <div class="lop3">
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+    </div>
+
+     <!-- TRÌNH ĐỘ KỸ NĂNG -->
+    <br><br><h2>TRÌNH ĐỘ KỸ NĂNG</h2><br>
+     <div class="body1">
+        <div class="col2" >
+            <div class="col1">
+                <div class="lo">
+                    <img src="../baithi/anh/21.jpg" alt="1" class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Thiết kế đồ họa</h4>
+                <div class="cok"></div>
+        </div>
+
+        <div class="col2" >
+            <div class="col1">
+                <div class="lo">
+                    <img src="../baithi/anh/22.jpg" alt="1" class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Thiết kế web</h4>
+            <div class="cok"></div>
+        </div>
+        
+        <div class="col2" >
+            <div class="col1">
+                <div class="lo">
+                    <img src="../baithi/anh/23.png" alt="1" class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Lập trình c++</h4>
+            <div class="cok"></div>
+        </div>
+    </div>
+
+    <!-- SỞ THÍCH -->
+    <div id="sothich">
+        <h2>SỞ THÍCH THƯỜNG NGÀY </h2>
+        <p><br><b>Hằng ngày,</b> một phần không thể thiếu trong cuộc sống của tôi là thời gian thư giãn với TikTok. Việc theo dõi các video ngắn mang đến cho tôi những tiếng cười, niềm vui và thậm chí là cả những lời khuyên hữu ích từ cộng đồng trên nền tảng này. Không chỉ là một cách giải trí, TikTok còn là một nguồn cảm hứng đáng kinh ngạc cho tôi.<br><br>
+            <b>Ngoài ra,</b> tôi cũng rất thích giấc ngủ. Những giấc ngủ sâu và ngon là điểm dừng chân lý tưởng sau một ngày làm việc mệt mỏi. Tôi thường tận hưởng những giờ nghỉ ngơi thoải mái để tái tạo năng lượng và sẵn sàng cho một ngày mới.<br><br>
+            <b>Và không thể</b> không nhắc đến sở thích ưa thích của tôi - ăn uống. Tôi thích khám phá những món ăn mới, thưởng thức hương vị đặc biệt từ các quán ăn địa phương và thử nghiệm các món ngon tự nấu tại nhà. Ăn uống không chỉ là nhu cầu sinh lý mà còn là một trải nghiệm văn hóa và xã hội đầy thú vị.<br><br></p>
+        <div class="body1">
+            <div class="col41" >
+                <div class="col3">
+                    <div class="lo">
+                        <img src="../baithi/anh/1.jpg" alt="4"class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <p>Thức ăn</p>
+               <div class="cok"></div>
+            </div>
+            <div class="col41" >
+                <div class="col3">
+                    <div class="lo">
+                        <img src="../baithi/anh/3.png" alt="5"class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <p>Tiktok</p>
+                <div class="cok"></div>
+            </div>
+        </div>
+        <p><b>Những sở thích này</b> giúp tôi tận hưởng cuộc sống hằng ngày và tìm thấy niềm vui trong những khoảnh khắc đơn giản nhất.</p>
+    </div>
+
+    <!-- HOẠT ĐỘNG YÊU THÍCH -->
+    <div id="hoatdongyeuthich">
+        <br><br><h2>HOẠT ĐỘNG YÊU THÍCH</h2>
+        <p><br><b>Một trong những hoạt động</b> yêu thích của tôi là chơi cầu lông. Mỗi khi bước vào sân, tôi như được đắm mình trong một không gian của sự tự do và sảng khoái. Đánh vợt, vận động, và theo đuổi mỗi quả bóng là một trải nghiệm thư giãn và sảng khoái không thể tả được. Cảm giác bóng bay qua không gian, tiếng vợt đập bóng, và cảm giác khi hạ gục đối thủ là những khoảnh khắc đầy hứng khởi mà tôi luôn mong chờ trong mỗi trận đấu.<br><br>
+            <b>Bên cạnh đó,</b> âm nhạc cũng là một phần không thể thiếu trong cuộc sống của tôi. Tôi thích hát, và khi tôi cất giọng, tôi cảm thấy như đang kể điều gì đó thông qua từng nốt nhạc. Âm nhạc không chỉ là một phương tiện giải trí, mà còn là một cách để thể hiện cảm xúc và kết nối với người khác. Tôi thường hát cùng bạn bè, tham gia các buổi hòa nhạc hoặc đơn giản chỉ là thưởng thức những giai điệu yêu thích trong khoảnh khắc một mình.<br><br></p>
+        <div class="body1">
+            <div class="col41" >
+                <div class="col3">
+                    <div class="lo">
+                        <img src="../baithi/anh/2.jpg" alt="4"class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <p>Cầu lông</p>
+               <div class="cok"></div>
+            </div>
+            <div class="col41" >
+                <div class="col3">
+                    <div class="lo">
+                        <img src="../baithi/anh/5.png" alt="5"class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <p>Âm nhạc</p>
+                <div class="cok"></div>
+            </div>
+        </div>
+        <p><b>Cầu lông và âm nhạc</b> không chỉ là những hoạt động giúp tôi thư giãn mà còn là một phần không thể thiếu của cuộc sống hàng ngày của tôi. Chúng tôi tìm thấy sự cân bằng, niềm vui và sự sảng khoái trong cuộc sống.</p>
+    </div>
+    
+    <!-- CÁC CÔNG VIỆC ĐÃ LÀM -->
+    <div id="cvdalam">
+        <br><br><h2>CÁC CÔNG VIỆC ĐÃ LÀM</h2>
+        <section>
+            <div class="lop">
+                <div class="lop5">
+                    <div class="lo">
+                        <img src="../baithi/anh/6.jpg" alt="1" class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <div class="lop6a">
+                    <p>Trong quá trình học thiết kế web, tôi đã tham gia vào nhiều dự án bài tập, từ việc tạo ra các trang web cá nhân đơn giản đến phát triển các trang web động phức tạp hơn. Mỗi dự án đều là một cơ hội để rèn luyện kỹ năng và nắm vững nguyên lý cơ bản của thiết kế web.</p>
+                    <div class="containe">
+                        <a href="https://thuznguyen.000webhostapp.com/web.thuznguyen/web.html"><b>Xem thêm...</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contain">
+                <a href="https://thuznguyen.000webhostapp.com/web.thuznguyen/web.html"><b>Xem thêm...</b></a>
+            </div>
+        </section>
+    </div>
+
+<!-- CÁC DỊCH VỤ/ NHÓM CHUYÊN MÔN CÓ THỂ LÀM -->
+    <br><br><br><h2>CÁC DỊCH VỤ/ NHÓM CHUYÊN MÔN CÓ THỂ LÀM</h2><br>
+    <div class="body1">
+        <div class="col41" >
+            <div class="col3">
+                <div class="lo">
+                    <img src="../baithi/anh/7.png" alt="4"class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Web design and development</h4>
+           <div class="cok"></div>
+        </div>
+
+        <div class="col41" >
+            <div class="col3">
+                <div class="lo">
+                    <img src="../baithi/anh/8.png" alt="5"class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Produce design</h4>
+            <div class="cok"></div>
+        </div>
+    </div><br><br><br>
+    <div class="body1">   
+        <div class="col41" >
+            <div class="col3">
+                <div class="lo">
+                    <img src="../baithi/anh/9.jpg" alt="6"class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Content strategy</h4>
+            <div class="cok"></div>
+        </div>
+
+        <div class="col41" >
+            <div class="col3">
+                <div class="lo">
+                    <img src="../baithi/anh/10.png" alt="6"class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Ui/ux</h4>
+            <div class="cok"></div>
+        </div>
+    </div><br><br><br>
+    <div class="body1">   
+        <div class="col41" >
+            <div class="col3">
+                <div class="lo">
+                    <img src="../baithi/anh/11.jpeg" alt="6"class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Branding and strategy</h4>
+            <div class="cok"></div>
+        </div>
+
+        <div class="col41" >
+            <div class="col3">
+                <div class="lo">
+                    <img src="../baithi/anh/12.jpg" alt="6"class="lop1">
+                    <div class="lop2"></div>
+                    <div class="lop3">
+                    </div>
+                </div>
+            </div>
+            <br><h4>Print & package design</h4>
+            <div class="cok"></div>
+        </div>
+    </div><br><br>
+
+    <!-- LỜI CHỨNG THỰC -->
+    <div id="loichungthuc">
+        <br><br><h2>LỜI CHỨNG THỰC</h2><br>
+        <p><b>Với sự chuyên nghiệp, kiến thức và kỹ năng tích lũy,</b> tôi cam kết sẽ đóng góp tích cực và mang lại giải pháp tốt cho mọi dự án của công ty.</p>
+        <section>
+            <div class="lop">
+                <div class="lop5">
+                    <div class="lo">
+                        <img src="../baithi/anh/13.png" alt="1" class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <div class="lop6a">
+                    <p>"Nguyễn Thị Thư là một sinh viên năng động và chăm chỉ. Cô ấy đã thể hiện sự kiên nhẫn và sự chuyên nghiệp trong mọi dự án mà chúng tôi đã hợp tác.<b>"<br>- Giáo viên hướng dẫn</b></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="lopb">
+                <div class="lop6ab">
+                    <p>"Tôi đã thuê Nguyễn Thị Thư thiết kế trang web cho doanh nghiệp của mình và tôi rất hài lòng với kết quả. Cô ấy đã hiểu rõ yêu cầu của tôi và mang lại một trang web đẹp mắt và chuyên nghiệp.<b>" <br>- Khách hàng A</b></p>
+                </div>
+                <div class="lop5b">
+                    <div class="lo">
+                        <img src="../baithi/anh/14.jpg" alt="1" class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="lop">
+                <div class="lop5">
+                    <div class="lo">
+                        <img src="../baithi/anh/17.jpg" alt="1" class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <div class="lop6a">
+                    <p>"Tôi đã làm việc với Nguyễn Thị Thư trong một dự án nhóm và tôi thực sự ấn tượng với kỹ năng của cô ấy. Cô ấy có khả năng làm việc hiệu quả trong nhóm và giải quyết vấn đề một cách sáng tạo.<b>"<br> - Đồng nghiệp.</b></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <p><b>Những phản hồi này</b> là minh chứng cho sự cam kết và khả năng của tôi trong lĩnh vực thiết kế web và là một nguồn động viên quý báu trong hành trình phát triển sự nghiệp của tôi.</p><br><br>
+
+    <!-- LIÊN HỆ -->
+    <div id="lienhe">
+        <br><h2>LIÊN HỆ</h2>
+        <p><b>Tôi sẵn sàng đón nhận mọi góp ý của bạn!</b><br><br>
+        <b>Địa chỉ:</b> 98 Dương Quảng Hàm - Cầu Giấy - Hà Nội<br>
+        <b>SĐT:</b> 0345678999 <br>
+        <b>Email:</b>nguyenthithunguyentatthanh@gmail.com</p>
+        <section>
+            <div class="lop">
+                <div class="lop5">
+                    <div class="lo">
+                        <img src="../baithi/anh/24.jpg" alt="1" class="lop1">
+                        <div class="lop2"></div>
+                        <div class="lop3">
+                        </div>
+                    </div>
+                </div>
+                <div class="lop6a">
+                    <form action="" onsubmit="return validateForm()" name="frm_dk">
+                        <p><b>Họ:</b> <input type="text" name="txt_ho" size="20"></p>
+                        <p><b>Tên:</b> <input type="text" id="txt_ten" size="20"></p>
+                        <p><b>Ngày sinh:</b> Ngày <select size="1" id="op_ngay">
+                            <option selected value="1">1</option>
+                            <option selected value="2">2</option>
+                            <option selected value="3">3</option>
+                            <option selected value="4">4</option>
+                            <option selected value="5">5</option>
+                            <option selected value="6">6</option>
+                            <option selected value="7">7</option>
+                            <option selected value="8">8</option>
+                            <option selected value="9">9</option>
+                            <option selected value="10">10</option>
+                    
+                            <option selected value="11">11</option>
+                            <option selected value="12">12</option>
+                            <option selected value="13">13</option>
+                            <option selected value="14">14</option>
+                            <option selected value="15">15</option>
+                            <option selected value="16">16</option>
+                            <option selected value="17">17</option>
+                            <option selected value="18">18</option>
+                            <option selected value="19">19</option>
+                            <option selected value="20">20</option>
+                    
+                            <option selected value="21">21</option>
+                            <option selected value="22">22</option>
+                            <option selected value="23">23</option>
+                            <option selected value="24">24</option>
+                            <option selected value="25">25</option>
+                            <option selected value="26">26</option>
+                            <option selected value="27">27</option>
+                            <option selected value="28">28</option>
+                            <option selected value="29">29</option>
+                            <option selected value="30">30</option>
+                            <option selected value="31">31</option>
+                        </select>
+                        Tháng <select size="1" id="op_thang">
+                            <option selected value="1">1</option>
+                            <option selected value="2">2</option>
+                            <option selected value="3">3</option>
+                            <option selected value="4">4</option>
+                            <option selected value="5">5</option>
+                            <option selected value="6">6</option>
+                            <option selected value="7">7</option>
+                            <option selected value="8">8</option>
+                            <option selected value="9">9</option>
+                            <option selected value="10">10</option>
+                            <option selected value="11">11</option>
+                            <option selected value="12">12</option>
+                        </select>
+                        Năm <select size="1" id="op_nam">
+                            <option selected value="1">1980</option>
+                            <option selected value="1">1981</option>
+                            <option selected value="2">1982</option>
+                            <option selected value="3">1983</option>
+                            <option selected value="4">1984</option>
+                            <option selected value="5">1985</option>
+                            <option selected value="6">1986</option>
+                            <option selected value="7">1987</option>
+                            <option selected value="8">1988</option>
+                            <option selected value="9">1989</option>
+                            <option selected value="10">1990</option>
+                            
+                            <option selected value="1">1991</option>
+                            <option selected value="2">1992</option>
+                            <option selected value="3">1993</option>
+                            <option selected value="4">1994</option>
+                            <option selected value="5">1995</option>
+                            <option selected value="6">1996</option>
+                            <option selected value="7">1997</option>
+                            <option selected value="8">1998</option>
+                            <option selected value="9">1999</option>
+                            <option selected value="10">2000</option>
+                    
+                            <option selected value="1">2001</option>
+                            <option selected value="1">2002</option>
+                            <option selected value="2">2003</option>
+                            <option selected value="3">2004</option>
+                            <option selected value="4">2005</option>
+                            <option selected value="5">2006</option>
+                            <option selected value="6">2007</option>
+                            <option selected value="7">2008</option>
+                            <option selected value="8">2009</option>
+                            <option selected value="9">2010</option>
+                            
+                            <option selected value="1">2011</option>
+                            <option selected value="1">2012</option>
+                            <option selected value="2">2013</option>
+                            <option selected value="3">2014</option>
+                            <option selected value="4">2015</option>
+                            <option selected value="5">2016</option>
+                            <option selected value="6">2017</option>
+                            <option selected value="7">2018</option>
+                            <option selected value="8">2019</option>
+                            <option selected value="9">2020</option>
+                    
+                            <option selected value="1">2021</option>
+                            <option selected value="1">2022</option>
+                            <option selected value="2">2023</option>
+                            <option selected value="3">2024</option>
+                            
+                        </select>
+                        </p>
+                    
+                        <p><b>Giới tính:</b>
+                            <input type="radio" name="gioiTinh" value="Nam" required> Nam
+                            <input type="radio" name="gioiTinh" value="Nữ"> Nữ
+                            <input type="radio" name="gioiTinh" value="Khác"> Khác
+                        </p>
+                    
+                        <p><b>Số điện thoại:</b> <input type="text" id="txt_dienthoai" size="20"> </p>
+                    
+                        <p><b>Góp ý:</b>
+                                <input type="checkbox" name="soThich" value="Đọc sách"> Web quá tệ
+                                <input type="checkbox" name="soThich" value="Xem phim"> Web lệch bố cục
+                                <input type="checkbox" name="soThich" value="Nghe nhạc"> Web màu mè
+                                <input type="checkbox" name="soThich" value="Đá bóng"> Web thiếu thông tin
+                            </p>
+                    
+                            <p><b>Khác:</b> <input type="text" id="txt_khac" size="20" required></p>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                    
+                        </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <p>&#169;-thuznguyen :)))</p>
+    </main>
+    <br>
+    <!-- CUỐI BÀI -->
+    <footer>
+        <div class="contay">
+            <div class="body1">
+            <div class="col5" >
+                <p><h3><b>Quick links</b></h3></p>
+                <a href="">Dịch vụ </a> <br>
+                <a href="">Nhóm làm việc</a><br>
+                <a href="">Công ty</a><br>
+                <a href="">Tìm kiếm</a><br>
+                <a href="">Google</a><br>
+                <a href="">Nhóm fackebook</a>
+            </div>
+            <div class="col5" >
+                <p><h3><b>About us</b></h3></p>
+                <p>&#169;-Làm việc cùng Thư là một trải nghiệm đầy niềm vui và sự hỗ trợ. Tôi mang lại không chỉ là sự chuyên nghiệp và kiến thức sâu rộng mà còn là sự hòa nhã, linh hoạt và sáng tạo trong mỗi dự án. Sự nhiệt huyết và tinh thần đồng đội của tôi tạo nên một môi trường làm việc tích cực và động viên mọi người vượt qua mọi thách thức.</p>
+            </div>
+            </div>
+        </div>
+        <hr>
+       <!-- ICON -->
+        <hr><br><br>
+        <div class="icons-container">
+            <i class="fab fa-facebook-square icon facebook"></i>
+            <i class="fab fa-tiktok icon tiktok"></i>
+            <i class="fab fa-zalo icon zalo"></i>
+            <i class="fab fa-instagram icon instagram"></i>
+            <i class="fab fa-twitter icon twitter"></i>
+            <i class="fab fa-facebook-messenger icon messenger"></i>
+        </div><br><br>
+          <p>&#169;-thuznguyen :)))</p>
+    </footer>
+      <script src="bkt.js"></script>
+</body>
+</html>

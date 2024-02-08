@@ -1,0 +1,222 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    top: 0;
+  }
+.navbar {
+    background-color: #000000;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    padding: 13px;
+    align-items: center;
+    left: 0;
+    z-index: 99;
+  }
+  .navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+  }  
+
+  .navbar a.active {
+    color: rgb(215, 97, 19);
+  }
+
+  .navbar #menu li a{
+    min-width: 200px;
+  }
+  header {
+    width: 100%;
+    padding:16px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;    
+    z-index: 99;
+    background-color: #000000;
+  }
+  #logo{
+    transition: 0.6s;
+  }
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #menu {
+    list-style:none;
+    display: flex;
+    z-index: 100;
+  }
+  
+  #menu .item {
+    margin:0 1.5rem;
+  }
+  
+  #menu .item a ,.dropdown p {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #menu a,#menu p{
+    position: relative;
+  }
+  #menu a:after,#menu p:after{    
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    left:50%;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  #menu a:hover,#menu p:hover{
+    color: rgb(122, 220, 229);
+  }
+  #menu a:hover::after,#menu p:hover::after{ 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  .dropdown {
+    position: relative;
+    border: 10px;
+  }
+  
+  #menu #myDropdown{
+    flex-direction: column;
+    width: 15rem;
+    position: absolute;
+    top: 200%;
+    background-color: rgb(125, 212, 234);
+    padding: 1rem;
+  }
+  #menu #myDropdown a{
+    color: #000000;
+  }
+  #menu #myDropdown a::after{
+    background-color: #000000;
+  }
+  #menu .no-show {
+    display: none;
+  }
+  @media (max-width:600px){
+    #header, #banner, #wp-products{
+        margin: 0;
+        padding: 0;
+    }
+    #menu{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    .item #icon {
+      margin-right: 10px;
+    }
+  }
+  /* sidebar */
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #mySidebar a:hover {
+    color: rgb(122, 220, 229);
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  #mySidebar .closebtn:hover {
+    color: red;
+  }
+  #mySidebar a:active {
+    color: rgb(6, 61, 88);
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    color: rgb(122, 220, 229);
+    padding: 10px 10px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo img {
+    margin-right: 5px;
+  }
+  /* đổi màu icon ngôi nhà */
+  #icon a i {
+    color: rgb(122, 220, 229);
+  }
+  /* đổi màu logo */
+  header a#logo {
+    color: rgb(122, 220, 229);
+  }
+  @media (max-height: 600px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 16px;}
+    .sidebar{
+      display: inline-block;
+    }
+    #logo img {
+      margin-right: 10px;
+    }
+  }
+  @media (max-height: 1024px) and (min-width: 601px){
+    .sidebar{
+      display: none;
+    }
+    #main{
+      display: none;
+    }
+  }
+  #actions .item , #logo{
+    margin-left:1.2rem;
+    font-size: 1.2rem;
+  }
